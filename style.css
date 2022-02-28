@@ -57,15 +57,18 @@ body {
     justify-content: space-around;
     height: 30%;
     padding: 50px;
-}
-
-.card-body {
-    font-size: 1.2rem;
-    align-items: left;
-
-}
-.carte{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,201,0.4066001400560224) 100%);
     clip-path: polygon(50% 0%, 100% 5%, 100% 95%, 50% 100%, 0 94%, 0 5%);
+
+}
+
+.card, .card-body {
+    font-size: 1.2rem;
+    align-items: left;
+box-shadow: 0px 0px 5px 0px rgb(255, 246, 246);
+}
+.carte{
+   
+    
 }
