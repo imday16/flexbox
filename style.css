@@ -1,36 +1,42 @@
-body{
+body {
     border: 10px red dotted;
     height: 100vh;
     font-size: 30px;
-    text-align:center;
+    text-align: center;
     font-weight: bolder;
 }
 
 .parent {
     border: 5px green solid;
-    height:70vh;
+    height: 70vh;
     display: flex;
-    
+
     justify-content: center;
-    align-items:baseline;
+    align-items:center;
 }
 
+
 .enfant1 {
-    width: 200px;
-  height:150;
+    
+    flex-shrink: 1;
+    flex-basis: 200px;
+    height: 150;
     background-color: lightgreen;
 }
 
 .enfant2 {
-    width: 200px;
-    height:150;
+    
+    flex-shrink: 2;
+    flex-besis: 200px;
+    height: 150;
     background-color: rgb(128, 10, 29);
 }
 
 .enfant3 {
-    width: 200px;
-    height:150;
     
+    flex-shrink: 3;
+    flex-basis: 200px;
+    height: 150;
     background-color: rgb(40, 99, 187);
 }
 
