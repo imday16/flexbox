@@ -1,0 +1,47 @@
+body{
+    border: 10px red dotted;
+    height: 100vh;
+    font-size: 30px;
+    text-align:center;
+    font-weight: bolder;
+}
+
+.parent {
+    border: 5px green solid;
+    height:70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items:baseline;
+}
+
+.enfant1 {
+    width: 200px;
+  height:150;
+    background-color: lightgreen;
+}
+
+.enfant2 {
+    width: 200px;
+    height:150;
+    background-color: rgb(128, 10, 29);
+}
+
+.enfant3 {
+    width: 200px;
+    height:150;
+    
+    background-color: rgb(40, 99, 187);
+}
+
+.enfant4 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(56, 15, 59);
+}
+
+.enfant5 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(39, 24, 24);
+}
