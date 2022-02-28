@@ -55,13 +55,11 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    width:80vw;
     height: 30%;
     padding:50px;
 }
 .card-body{
     font-size: 1.2rem;
-    align-items: center;
+    align-items: left;
    
 }
