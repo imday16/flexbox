@@ -1,5 +1,5 @@
 body {
-   
+
     height: 100vh;
     font-size: 30px;
     text-align: center;
@@ -10,14 +10,13 @@ body {
     border: 5px green solid;
     height: 70vh;
     display: flex;
-
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 
 .enfant1 {
-    
+
     flex-shrink: 1;
     flex-basis: 200px;
     height: 150;
@@ -25,15 +24,15 @@ body {
 }
 
 .enfant2 {
-    
+
     flex-shrink: 2;
-    flex-besis: 200px;
+    flex-basis: 200px;
     height: 150;
     background-color: rgb(128, 10, 29);
 }
 
 .enfant3 {
-    
+
     flex-shrink: 3;
     flex-basis: 200px;
     height: 150;
@@ -51,15 +50,17 @@ body {
     height: 50px;
     background-color: rgb(39, 24, 24);
 }
-.carte{
-    display:flex;
+
+.carte {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 30%;
-    padding:50px;
+    padding: 50px;
 }
-.card-body{
+
+.card-body {
     font-size: 1.2rem;
     align-items: left;
-   
+
 }
