@@ -1,5 +1,5 @@
 body {
-    border: 10px red dotted;
+   
     height: 100vh;
     font-size: 30px;
     text-align: center;
@@ -50,4 +50,18 @@ body {
     width: 200px;
     height: 50px;
     background-color: rgb(39, 24, 24);
+}
+.carte{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:80vw;
+    height: 30%;
+    padding:50px;
+}
+.card-body{
+    font-size: 1.2rem;
+    align-items: center;
+   
 }
